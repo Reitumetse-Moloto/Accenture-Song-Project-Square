@@ -1,0 +1,39 @@
+.case-studies-container{
+    display:flex;
+    padding-top: 20px;
+    transition: transform 0.5s ease-in-out;
+  }
+
+.the-olympian{
+    height: 399px;
+    height: 399px;
+    background-image: url('/Users/reitumetse/git-repos/Accenture-Song-Project-Square/project-square/src/assets/images/olympian.jpeg');
+    background-size: cover;
+    background-position: center; 
+    margin-right: 20px;
+}
+
+h3{
+    color: white;
+}
+
+.case-study-paragraph{
+    color: white;
+}
+
+.the-savings-jar{
+    background-image: url('/Users/reitumetse/git-repos/Accenture-Song-Project-Square/project-square/src/assets/images/dragon.jpeg');
+    background-size: cover;
+    background-position: center; 
+    height: 399px;
+    height: 399px;
+    margin-right: 20px;
+}
+
+.skhokho-semali{
+    background-image: url('/Users/reitumetse/git-repos/Accenture-Song-Project-Square/project-square/src/assets/images/skhokho.jpeg');
+    background-size: cover;
+    background-position: center; 
+    height: 399px;
+    height: 399px;
+}

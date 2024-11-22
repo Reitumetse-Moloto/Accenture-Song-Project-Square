@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; 
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+
+.view-project-button{
+  background-color:#70259B;
+  border-radius: 25px;
+  width: 127px;
+  height: 41px;
+  color: white;
+  font-weight: bold;
+}
+
+.container{
+  display:flex;
+}
+
+.sub-heading-one{
+  display: flex;
+}
+
+.sub-heading-two{
+  display: flex;
+}
+
+.page-wrapper{
+  padding: 30px;
+}
+
+.confidence{
+  background-image: url('/Users/reitumetse/git-repos/Accenture-Song-Project-Square/project-square/src/assets/images/confidence.jpeg');
+  height: 600px;
+  background-size: cover;
+    background-position: center; 
+    color: white;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,12 @@
+.contact-us{
+    display: flex;
+}
+
+.footer-container{
+    background-color:#70259B;
+    color: white;
+}
+
+.footer-section-one{
+    display: flex;
+}
