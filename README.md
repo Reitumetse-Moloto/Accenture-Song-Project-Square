@@ -49,3 +49,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 To run the backend:
 
 ### `node server.js`
+
+
+Project Snippets
+<img width="1439" alt="Screenshot 2024-11-24 at 01 01 36" src="https://github.com/user-attachments/assets/02944946-a5ad-4c1a-8ccb-570cb0c74d93">
+<img width="1439" alt="Screenshot 2024-11-24 at 01 01 43" src="https://github.com/user-attachments/assets/7245b378-03a7-4371-aeb0-803feefd3bc1">
+<img width="1439" alt="Screenshot 2024-11-24 at 01 01 54" src="https://github.com/user-attachments/assets/965af304-4091-44b6-99a2-7615496583d5">
+
+
