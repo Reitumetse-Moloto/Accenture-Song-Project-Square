@@ -25,28 +25,24 @@ const Footer = () => (
  
      {/* Footer Section Two */}
      <div className="footer-section-two">
-       {/* Links Group 1 */}
        <div className="links-group">
          <p><a href="#Terms-of-service">Terms of Service</a></p>
          <p><a href="#Privacy-policy">Privacy Policy</a></p>
          <p><a href="#Impressum">Impressum</a></p>
        </div>
        
-       {/* Links Group 2 */}
        <div className="links-group">
          <p><a href="#Facebook">Facebook</a></p>
          <p><a href="#Instagram">Instagram</a></p>
          <p><a href="#Twitter">Twitter</a></p>
        </div>
  
-       {/* Links Group 3 */}
        <div className="links-group">
          <p><a href="#Youtube">YouTube</a></p>
          <p><a href="#Behance">Behance</a></p>
          <p><a href="#Dribble">Dribble</a></p>
        </div>
  
-       {/* Links Group 4 */}
        <div className="links-group">
          <p><a href="#Explore-open-jobs">Explore Open Jobs</a></p>
          <p>© 2000-2023 Media Solutions</p>
@@ -55,7 +51,6 @@ const Footer = () => (
    </div>
  </div>
  
-
 );
 
 export default Footer;

@@ -28,8 +28,7 @@ const Header = () => {
       
      </header>
     </div>
-     
-     
+        
    );
  };
 
