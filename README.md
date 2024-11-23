@@ -24,7 +24,7 @@ I initially attempted to use Multer with MongoDB to store images through a POST 
 
 Additionally, I implemented a sorting function to display the brands in ascending order and allow users to reset the sorting. I also filtered the brands based on the "published" boolean value.
 
-##Getting Started
+## Getting Started
 In the project directory, you can run:
 
 ### `npm install`
