@@ -1,0 +1,87 @@
+.mobileView {
+    display: block;
+}
+
+.desktopView {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .mobileView {
+        display: none;
+    }
+
+    .desktopView {
+        display: flex;
+        gap: 30px;
+    }
+
+    .the-olympian {
+        height: 420px;
+        width: 420px;
+    }
+}
+
+.case-studies-container {
+    display: flex;
+    padding-top: 20px;
+    transition: transform 0.5s ease-in-out;
+    text-align: left;
+    gap: 60px
+}
+
+.the-olympian {
+    /* height: 399px;
+    width: 399px; */
+    background-image: url('/Users/reitumetse/git-repos/Accenture-Song-Project-Square/project-square/src/assets/images/olympian.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.the-olympian-text {
+    margin-left: 15px;
+    padding-top: 250px;
+}
+
+h3 {
+    color: white;
+}
+
+.case-study-paragraph {
+    color: white;
+}
+
+.the-savings-jar {
+    background-image: url('/Users/reitumetse/git-repos/Accenture-Song-Project-Square/project-square/src/assets/images/dragon.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+    width: 420px;
+    margin-right: 20px;
+}
+
+.savings-jar-text {
+    margin-left: 15px;
+    padding-top: 250px;
+}
+
+.skhokho-semali {
+    background-image: url('/Users/reitumetse/git-repos/Accenture-Song-Project-Square/project-square/src/assets/images/skhokho.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+    width: 420px;
+}
+
+.skhokho-semali-text {
+    margin-left: 15px;
+    padding-top: 250px;
+}
+
+.case-studies-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    /* Adjust width as needed */
+}
