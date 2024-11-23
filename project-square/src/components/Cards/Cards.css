@@ -1,80 +1,87 @@
-.case-studies-container{
-    display:flex;
+.mobileView {
+    display: block;
+}
+
+.desktopView {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .mobileView {
+        display: none;
+    }
+
+    .desktopView {
+        display: flex;
+        gap: 30px;
+    }
+
+    .the-olympian {
+        height: 420px;
+        width: 420px;
+    }
+}
+
+.case-studies-container {
+    display: flex;
     padding-top: 20px;
     transition: transform 0.5s ease-in-out;
     text-align: left;
     gap: 60px
-  }
+}
 
-.the-olympian{
-    height: 399px;
-    width: 399px;
+.the-olympian {
+    /* height: 399px;
+    width: 399px; */
     background-image: url('/Users/reitumetse/git-repos/Accenture-Song-Project-Square/project-square/src/assets/images/olympian.jpeg');
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     margin-right: 20px;
 }
 
-.the-olympian-text{
+.the-olympian-text {
     margin-left: 15px;
     padding-top: 250px;
 }
 
-h3{
+h3 {
     color: white;
 }
 
-.case-study-paragraph{
+.case-study-paragraph {
     color: white;
 }
 
-.the-savings-jar{
+.the-savings-jar {
     background-image: url('/Users/reitumetse/git-repos/Accenture-Song-Project-Square/project-square/src/assets/images/dragon.jpeg');
     background-size: cover;
-    background-position: center; 
-    height: 399px;
-    width: 399px;
+    background-position: center;
+    height: 420px;
+    width: 420px;
     margin-right: 20px;
 }
 
-.savings-jar-text{
+.savings-jar-text {
     margin-left: 15px;
     padding-top: 250px;
 }
 
-.skhokho-semali{
+.skhokho-semali {
     background-image: url('/Users/reitumetse/git-repos/Accenture-Song-Project-Square/project-square/src/assets/images/skhokho.jpeg');
     background-size: cover;
-    background-position: center; 
-    height: 399px;
-    width: 399px;
+    background-position: center;
+    height: 420px;
+    width: 420px;
 }
 
-.skhokho-semali-text{
+.skhokho-semali-text {
     margin-left: 15px;
     padding-top: 250px;
 }
 
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
+.case-studies-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .swiper-button-next,
-.swiper-button-prev {
-  color: #70259B;
-}
-
-.swiper-pagination-bullet {
-  background: #d100c9;
-}
-
-.swiper-pagination-bullet-active {
-  background: #70259B;
+    overflow: hidden;
+    width: 100%;
+    /* Adjust width as needed */
 }
