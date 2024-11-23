@@ -23,3 +23,29 @@ A boolean field for the "published" status.
 I initially attempted to use Multer with MongoDB to store images through a POST request and retrieve them via a GET request. However, I switched to building an API endpoint that fetches brand data and images using relative SVG paths from the database.
 
 Additionally, I implemented a sorting function to display the brands in ascending order and allow users to reset the sorting. I also filtered the brands based on the "published" boolean value.
+
+##Getting Started
+In the project directory, you can run:
+
+### `npm install`
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+To run the backend:
+
+### `node server.js`
