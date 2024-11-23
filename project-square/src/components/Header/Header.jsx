@@ -27,13 +27,6 @@ const Header = () => {
        </nav>
       
      </header>
-      {/* Confidence Section */}
-      <div className="confidence">
-      {/* <img src="project-square/src/assets/images/confidence.jpeg" alt="confidence" width="1440" height="600"/> */}
-        <h1>Live with Confidence</h1>
-        <p>José Mourinho brings confidence to pan-African Sanlam campaign.</p>
-        <button className="view-project-button">View Project</button>
-      </div>
     </div>
      
      

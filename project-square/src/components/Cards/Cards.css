@@ -2,15 +2,22 @@
     display:flex;
     padding-top: 20px;
     transition: transform 0.5s ease-in-out;
+    text-align: left;
+    gap: 60px
   }
 
 .the-olympian{
     height: 399px;
-    height: 399px;
+    width: 399px;
     background-image: url('/Users/reitumetse/git-repos/Accenture-Song-Project-Square/project-square/src/assets/images/olympian.jpeg');
     background-size: cover;
     background-position: center; 
     margin-right: 20px;
+}
+
+.the-olympian-text{
+    margin-left: 15px;
+    padding-top: 250px;
 }
 
 h3{
@@ -26,8 +33,13 @@ h3{
     background-size: cover;
     background-position: center; 
     height: 399px;
-    height: 399px;
+    width: 399px;
     margin-right: 20px;
+}
+
+.savings-jar-text{
+    margin-left: 15px;
+    padding-top: 250px;
 }
 
 .skhokho-semali{
@@ -35,5 +47,34 @@ h3{
     background-size: cover;
     background-position: center; 
     height: 399px;
-    height: 399px;
+    width: 399px;
+}
+
+.skhokho-semali-text{
+    margin-left: 15px;
+    padding-top: 250px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-button-next,
+.swiper-button-prev {
+  color: #70259B;
+}
+
+.swiper-pagination-bullet {
+  background: #d100c9;
+}
+
+.swiper-pagination-bullet-active {
+  background: #70259B;
 }

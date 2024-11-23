@@ -9,7 +9,14 @@ function App() {
     <div className="App">
       <Header/>
 
-       
+        {/* Confidence Section */}
+        <div className="confidence">
+          <div className="confidence-text">
+          <h1>Live with Confidence</h1>
+        <p>José Mourinho brings confidence to pan-African Sanlam campaign.</p>
+        <button className="view-project-button">View Project</button>
+          </div>
+      </div>
       <div className="page-wrapper">
 
       {/* What we do Section */}
@@ -21,7 +28,7 @@ function App() {
       </svg>
       <p className="what-we-do-text">What we do</p>
         </div>
-
+        
         {/* <img src="/Users/reitumetse/git-repos/Accenture-Song-Project-Square/project-square/src/assets/images/Heading Tag.png" alt="tag"/> */}
      
       <h1>We offer a complete range of bespoke design and development services to help you turn your ideas into digital masterpieces</h1>
@@ -107,15 +114,20 @@ function App() {
       <rect width="40" height="4" fill="#D100C9"/>
       </svg>
       <p className="what-we-do-text">Case Studies</p>
-     
       </div>
+
       <Cards/>
-
-      <Footer/>
-
-      {/* Footer Section */}
+  
+  {/* Brands Us Section */}
+  <div className="brands">
+     <svg width="40" height="4" viewBox="0 0 40 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <rect width="40" height="4" fill="#D100C9" />
+     </svg>
+     <p className="brands-text">You'll be in good company</p>
+   </div>
       </div>
-
+      {/* Footer Section */}
+      <Footer/>
       
     </div>
   );
